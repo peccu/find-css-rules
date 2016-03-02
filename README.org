@@ -4,7 +4,7 @@ Simply find css rules from css file.
 
 ** Dependencies
    - Node.js
-   - [jq](https://stedolan.github.io/jq/)
+   - [[https://stedolan.github.io/jq/][jq]]
 ** Usage and Example
 
 #+BEGIN_SRC shell-script
