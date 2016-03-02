@@ -1,0 +1,27 @@
+* find-css-rules
+
+Simply find css rules from css file.
+
+** Dependencies
+   - Node.js
+   - [jq](https://stedolan.github.io/jq/)
+** Usage and Example
+
+#+BEGIN_SRC shell-script
+  % git clone https://github.com/peccu/find-css-rules.git
+  % cd find-css-rules
+  % npm install
+  % ./find-rule.sh style.css .some-selector
+  {
+    "selector": ".some-selector",
+    "property": "background",
+    "value": "100%"
+  }
+  {
+    "selector": ".header .some-selector",
+    "property": "width",
+    "value": "100%"
+  }
+#+END_SRC
+** LICENSE
+   MIT
